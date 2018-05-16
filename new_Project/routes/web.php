@@ -50,3 +50,6 @@ Route::get('schema/select-oneCol-table',function(){
 	print_r($data);
 	echo '</pre>';
 });
+Route::get('hello', function(){
+	return 'Hello my first git';
+});
